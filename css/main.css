@@ -1,0 +1,62 @@
+.scarecrow{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-family: 'Space Mono', monospace;
+    color: #333333;
+    font-weight: 700;
+    font-size: 3rem;
+    width: 30rem;
+    line-height: 4.855rem;
+    margin-bottom: 2rem;
+}
+
+.description{
+    font-family: 'Space Mono', monospace;
+    color: #4f4f4f;
+    font-weight: 400;
+    font-size: 1.2576rem;
+    width: 21rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.button{
+    color: #f0f0f0;
+    background-color: #333333;
+    width: 12rem;
+    height: 3rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+}
+
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 2.25rem;
+        width: 20rem;
+        line-height: 4rem;
+        margin-bottom: 1.5rem; 
+    }
+
+    .description{
+        font-weight: 300;
+        font-size: 0.9785rem;
+        width: 20rem;
+        line-height: 1.535rem;
+        margin-bottom: 1.785rem;
+    }
+
+    .button{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 0.5785rem;
+        font-weight: 700;
+        border: none;
+        margin-bottom: 2rem;
+    }
+    
+}
